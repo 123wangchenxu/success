@@ -1,0 +1,4 @@
+﻿  11-7.cpp
+D:\Users\86133\source\repos\11-7\11-7\11-7.cpp(1,1): warning C4828: 文件包含在偏移 0x4fe 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+D:\Users\86133\source\repos\11-7\11-7\11-7.cpp(9,16): error C2660: “larger_of”: 函数不接受 2 个参数
+D:\Users\86133\source\repos\11-7\11-7\11-7.cpp(3,6): message : 参见“larger_of”的声明
