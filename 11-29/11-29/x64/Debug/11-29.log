@@ -1,0 +1,11 @@
+﻿  11-29.cpp
+D:\Users\86133\source\repos\11-29\11-29\11-29.cpp(4,9): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+D:\Users\86133\source\repos\11-29\11-29\11-29.cpp(11,10): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+D:\Users\86133\source\repos\11-29\11-29\11-29.cpp(11,10): message : 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+D:\Users\86133\source\repos\11-29\11-29\11-29.cpp(11,10): message : 缺失的可变参数 2 为格式字符串“%c”所需
+D:\Users\86133\source\repos\11-29\11-29\11-29.cpp(11,10): message : 此参数用作缓冲区大小
+D:\Users\86133\source\repos\11-29\11-29\11-29.cpp(26,18): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+D:\Users\86133\source\repos\11-29\11-29\11-29.cpp(26,18): message : 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+D:\Users\86133\source\repos\11-29\11-29\11-29.cpp(26,18): message : 缺失的可变参数 2 为格式字符串“%c”所需
+D:\Users\86133\source\repos\11-29\11-29\11-29.cpp(26,18): message : 此参数用作缓冲区大小
+  11-29.vcxproj -> D:\Users\86133\source\repos\11-29\x64\Debug\11-29.exe

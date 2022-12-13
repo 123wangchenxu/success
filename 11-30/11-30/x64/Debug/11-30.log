@@ -1,0 +1,7 @@
+﻿  11-30.cpp
+D:\Users\86133\source\repos\11-30\11-30\11-30.cpp(9,7): warning C4101: “arr”: 未引用的局部变量
+D:\Users\86133\source\repos\11-30\11-30\11-30.cpp(30,18): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+D:\Users\86133\source\repos\11-30\11-30\11-30.cpp(30,18): message : 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+D:\Users\86133\source\repos\11-30\11-30\11-30.cpp(30,18): message : 缺失的可变参数 2 为格式字符串“%c”所需
+D:\Users\86133\source\repos\11-30\11-30\11-30.cpp(30,18): message : 此参数用作缓冲区大小
+  11-30.vcxproj -> D:\Users\86133\source\repos\11-30\x64\Debug\11-30.exe
