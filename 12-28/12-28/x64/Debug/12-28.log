@@ -1,0 +1,10 @@
+﻿  12-28.cpp
+D:\Users\王晨旭\source\repos\12-28\12-28\12-28.cpp(29,18): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+D:\Users\王晨旭\source\repos\12-28\12-28\12-28.cpp(29,18): message : 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+D:\Users\王晨旭\source\repos\12-28\12-28\12-28.cpp(29,18): message : 缺失的可变参数 2 为格式字符串“%c”所需
+D:\Users\王晨旭\source\repos\12-28\12-28\12-28.cpp(29,18): message : 此参数用作缓冲区大小
+D:\Users\王晨旭\source\repos\12-28\12-28\12-28.cpp(37,18): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+D:\Users\王晨旭\source\repos\12-28\12-28\12-28.cpp(37,18): message : 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+D:\Users\王晨旭\source\repos\12-28\12-28\12-28.cpp(37,18): message : 缺失的可变参数 2 为格式字符串“%c”所需
+D:\Users\王晨旭\source\repos\12-28\12-28\12-28.cpp(37,18): message : 此参数用作缓冲区大小
+  12-28.vcxproj -> D:\Users\王晨旭\source\repos\12-28\x64\Debug\12-28.exe
