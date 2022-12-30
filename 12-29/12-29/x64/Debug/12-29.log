@@ -1,0 +1,16 @@
+﻿  12-29.cpp
+D:\Users\王晨旭\source\repos\12-29\12-29\12-29.cpp(90,11): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+D:\Users\王晨旭\source\repos\12-29\12-29\12-29.cpp(90,11): message : 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+D:\Users\王晨旭\source\repos\12-29\12-29\12-29.cpp(90,11): message : 缺失的可变参数 2 为格式字符串“%c”所需
+D:\Users\王晨旭\source\repos\12-29\12-29\12-29.cpp(90,11): message : 此参数用作缓冲区大小
+D:\Users\王晨旭\source\repos\12-29\12-29\12-29.cpp(96,19): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+D:\Users\王晨旭\source\repos\12-29\12-29\12-29.cpp(96,19): message : 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+D:\Users\王晨旭\source\repos\12-29\12-29\12-29.cpp(96,19): message : 缺失的可变参数 2 为格式字符串“%c”所需
+D:\Users\王晨旭\source\repos\12-29\12-29\12-29.cpp(96,19): message : 此参数用作缓冲区大小
+D:\Users\王晨旭\source\repos\12-29\12-29\12-29.cpp(112,19): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+D:\Users\王晨旭\source\repos\12-29\12-29\12-29.cpp(112,19): message : 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+D:\Users\王晨旭\source\repos\12-29\12-29\12-29.cpp(112,19): message : 缺失的可变参数 2 为格式字符串“%c”所需
+D:\Users\王晨旭\source\repos\12-29\12-29\12-29.cpp(112,19): message : 此参数用作缓冲区大小
+D:\Users\王晨旭\source\repos\12-29\12-29\12-29.cpp(139,15): warning C4477: “scanf_s”: 格式字符串“%f”需要类型“float *”的参数，但可变参数 1 拥有了类型“double”
+D:\Users\王晨旭\source\repos\12-29\12-29\12-29.cpp(82,11): warning C4101: “qii”: 未引用的局部变量
+  12-29.vcxproj -> D:\Users\王晨旭\source\repos\12-29\x64\Debug\12-29.exe
