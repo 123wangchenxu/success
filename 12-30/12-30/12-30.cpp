@@ -1,55 +1,44 @@
-#include<stdio.h>
-#include<string.h>
-#include<math.h>
-int rotate_1(int, int);
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdarg.h>
+void show_array(const double ar[], int n);
+double* new_d_array(int n, ...);
 int main()
 {
-	int a, b;
-	printf("请输入值和要移动的位置：");
-	scanf_s("%d%d", &a, &b);
-	printf("%d", rotate_1(a, b));
+	double* p1;
+	double* p2;
+	p1 = new_d_array(5, 1.2, 2.3, 3.4, 4.5, 5.6);
+	p2 = new_d_array(4, 100.0, 20.00, 8.08, -1890.0);
+	show_array(p1, 5);
+	show_array(p2, 4);
+	free(p1);
+	free(p2);
 	return 0;
 }
-int rotate_1(int x, int m)
+double* new_d_array(int n, ...)
 {
-	int a[99] = { 0 };
-	int b[99] = { 0 };
-	int d = 0;
-	int ci = 0;
-	int di = m;
+	double* arr = (double*)malloc(n * sizeof(double));
 	int i = 0;
-	int j = 0;
-	int q = m;
-	int temp = 0;
-	int ret = 0;
-	while (x != 0)
+	va_list ap;
+	va_start(ap, n);
+	
+	for (i = 0; i < n; i++)
 	{
-		a[i] = x % 2;
-		x /= 2;
-		i++;
+		arr[i] = va_arg(ap, double);
 	}
-	for (j = 0; j <= (i -1)/ 2; j++)
-	{
-		temp = a[i - 1 - j];
-		a[i - 1 - j] = a[j];
-		a[j] = temp;
-	}
-	for (q = m; q < i; q++)
-	{
-		b[q - m] = a[q];
-	}
-	for (d = 0; d <= m; d++,di--)
-	{
-		b[i - di] = a[d];
-	}
-	for (ci = 0; ci < i; ci++)
-	{
-		ret += pow(2, i - ci-1) * b[ci];
-	}
-	return ret;
+	va_end(ap);
+	return arr;
 }
-//5.编写一个函数，把一个 unsigned int 类型值中的所有位向左旋转指定数
-//量的位。例如，rotate_l(x, 4)把x中所有位向左移动4个位置，而且从最左端
-//移出的位会重新出现在右端。也就是说，把高阶位移出的位放入低阶位。在
-//一个程序中测试该函数。
+void show_array(const double ar[], int n)
+{
+	int i = 0;
+	for (i = 0; i < n; i++)
+	{
+		printf("%lf\n ", ar[i]);
+	}
+}
+/*new_d_array()函数接受一个int类型的参数和double类型的参数。该函数
+返回一个指针，指向由malloc()分配的内存块。int类型的参数指定了动态数
+组中的元素个数，double类型的值用于初始化元素（第1个值赋给第1个元
+素，以此类推）。编写show_array()和new_d_array()函数的代码，完成这个
+程序。*/

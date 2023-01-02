@@ -1,4 +1,2 @@
 ﻿  12-30.cpp
-D:\Users\王晨旭\source\repos\12-30\12-30\12-30.cpp(1,1): warning C4828: 文件包含在偏移 0x3f8 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
-D:\Users\王晨旭\source\repos\12-30\12-30\12-30.cpp(48,27): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
   12-30.vcxproj -> D:\Users\王晨旭\source\repos\12-30\x64\Debug\12-30.exe
