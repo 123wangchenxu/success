@@ -1,0 +1,4 @@
+﻿  1.16.cpp
+D:\Users\王晨旭\source\repos\1-16\1-16\1.16.cpp(47,9): warning C4244: “*=”: 从“double”转换到“float”，可能丢失数据
+D:\Users\王晨旭\source\repos\1-16\1-16\1.16.cpp(48,9): warning C4244: “*=”: 从“double”转换到“float”，可能丢失数据
+  1-16.vcxproj -> D:\Users\王晨旭\source\repos\1-16\x64\Debug\1-16.exe
