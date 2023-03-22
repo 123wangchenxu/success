@@ -1,0 +1,3 @@
+﻿  2-18.cpp
+D:\Users\王晨旭\source\repos\2-18\2-18\2-18.cpp(13,13): error C2027: 使用了未定义类型“Q”
+D:\Users\王晨旭\source\repos\2-18\2-18\2-18.cpp(2,7): message : 参见“Q”的声明

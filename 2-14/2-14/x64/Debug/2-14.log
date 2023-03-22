@@ -1,0 +1,4 @@
+﻿  2-14.cpp
+D:\Users\王晨旭\source\repos\2-14\2-14\2-14.cpp(8,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\Users\王晨旭\source\repos\2-14\2-14\2-14.cpp(8,9): message : 请考虑在格式字符串中使用“%zd”
+  2-14.vcxproj -> D:\Users\王晨旭\source\repos\2-14\x64\Debug\2-14.exe
