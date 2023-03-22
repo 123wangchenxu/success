@@ -1,0 +1,3 @@
+﻿  3-10.cpp
+D:\Users\王晨旭\source\repos\3-10\3-10\3-10.cpp(1,1): warning C4828: 文件包含在偏移 0x1c9 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+  3-10.vcxproj -> D:\Users\王晨旭\source\repos\3-10\x64\Debug\3-10.exe
